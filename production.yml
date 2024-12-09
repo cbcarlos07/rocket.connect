@@ -19,7 +19,7 @@ services:
       - ./.envs/.production/.postgres
     command: /start
 
-  postgres:
+  postgres_rocket:
     build:
       context: .
       dockerfile: ./compose/production/postgres/Dockerfile
